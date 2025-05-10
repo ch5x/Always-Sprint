@@ -27,11 +27,11 @@ public abstract class ClientPlayerEntityMixin extends AbstractClientPlayerEntity
     /**
      * Changed injection point to HEAD to allow vanilla checks to take place
      * after we set sprinting to true.
-     *
+     * <p>
      * This should allow the user to always sprint as long as the vanilla checks
      * are passed.
      */
-    @Inject(method = "tickMovement", at = @At("HEAD"), locals = LocalCapture.CAPTURE_FAILHARD)
+    @Inject(method = "tickMovement", at = @At("HEAD"))
     public void tickMovement(CallbackInfo ci) {
         this.client.options.sprintKey.setPressed(true);
     }
