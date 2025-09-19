@@ -9,10 +9,10 @@
 	],
 	"contact": {
 		"homepage": "https://joscha-goetz.de",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Joscha-Goetz/Always-Sprint"
 	},
 	"icon": "assets/always-sprint/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"mixins": [
 		"always-sprint.mixins.json"
 	],
@@ -21,8 +21,5 @@
 		"minecraft": "~1.21",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
