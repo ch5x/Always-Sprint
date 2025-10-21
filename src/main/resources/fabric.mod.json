@@ -11,14 +11,15 @@
 		"homepage": "https://joscha-goetz.de",
 		"sources": "https://github.com/Joscha-Goetz/Always-Sprint"
 	},
+	"license": "GPL-3.0",
 	"icon": "assets/always-sprint/icon.png",
-	"environment": "client",
+	"environment": "*",
 	"mixins": [
 		"always-sprint.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.21",
+		"fabricloader": ">=0.17.2",
+		"minecraft": ">=1.21.9",
 		"java": ">=21",
 		"fabric-api": "*"
 	}
