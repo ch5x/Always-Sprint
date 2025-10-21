@@ -3,17 +3,17 @@
 	"id": "always-sprint",
 	"version": "${version}",
 	"name": "Always Sprint",
-	"description": "This is a Mod that lets the player sprint always without needing a sprint keybind",
+	"description": "Lets the player sprint always without needing a sprint keybind",
 	"authors": [
-		"Mirador"
+		"Mirador, Chax"
 	],
 	"contact": {
-		"homepage": "https://joscha-goetz.de",
-		"sources": "https://github.com/Joscha-Goetz/Always-Sprint"
+		"homepage": "https://modrinth.com/mod/alwayssprintfork",
+		"sources": "https://github.com/ch5x/Always-Sprint",
+		"issues": "https://github.com/ch5x/Always-Sprint/issues"
 	},
 	"license": "GPL-3.0",
 	"icon": "assets/always-sprint/icon.png",
-	"environment": "*",
 	"mixins": [
 		"always-sprint.mixins.json"
 	],
